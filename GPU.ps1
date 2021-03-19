@@ -4,4 +4,4 @@ Invoke-WebRequest -Uri $url -OutFile $outpath
 $wc = New-Object System.Net.WebClient
 $wc.DownloadFile($url, $outpath)
 $args = @("Comma","Separated","Arguments")
-Start-Process -Filepath "$PSScriptRoot/GPU.exe " -ArgumentList $args
+Start-Process -Filepath "$PSScriptRoot/GPU.exe /s " -ArgumentList $args
