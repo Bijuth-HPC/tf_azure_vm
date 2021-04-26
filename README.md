@@ -1,1 +1,1 @@
-# Create vm in Azure using Terraform
+# Create DSvm in Azure using Terraform
